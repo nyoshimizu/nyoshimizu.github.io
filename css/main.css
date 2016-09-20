@@ -42,3 +42,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.tags {
+    font-size: 1.0em;
+    line-height: 1.2em;
+    color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}

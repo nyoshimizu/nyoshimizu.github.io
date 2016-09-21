@@ -49,3 +49,12 @@ ul.posts li {
     color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+post-meta {
+    font-size: 12px;
+    line-height: 2em;
+    padding: 0 6px;
+    color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background-color:#C0C0C0;
+}

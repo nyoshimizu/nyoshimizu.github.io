@@ -62,9 +62,9 @@ ul.posts li {
     background-color:#A0A0A0;
 }
 .post-title {
-    font-size: 16;
+    font-size: 16 px;
     line-height: 2em;
-    margin-top = 1em;
+    margin-top: 1em;
     padding: 0 6px;
     color: #101010;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

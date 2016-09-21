@@ -14,13 +14,13 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #00008B;
+    color: #101010;
 }
 a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: #0000CD;
+    color: #404040;
 }
 h1 {
     font-size: 2em;
@@ -49,7 +49,7 @@ ul.posts li {
 .tags {
     font-size: 1.0em;
     line-height: 1.2em;
-    color: #333;
+    color: #00008B;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 

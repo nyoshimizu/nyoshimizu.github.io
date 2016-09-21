@@ -50,7 +50,7 @@ ul.posts li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-post-meta {
+.post-meta {
     font-size: 12px;
     line-height: 2em;
     padding: 0 6px;

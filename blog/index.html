@@ -4,9 +4,11 @@ title: Blog
 ---
 
 {% for post in site.posts %}
+
 	<div class="post-title">
-	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	</div>
+	
 	<div class="post-meta">
 		<span class="post-date">{{ post.date | date_to_string }} | </span>
 		<span class = "tags">
@@ -15,7 +17,9 @@ title: Blog
 		{% endfor %}
 		</span>
 	</div>
+	
 	<div class="post-content">
 		{{ post.content }}
 	</div>
+	
 {% endfor %}

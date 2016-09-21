@@ -69,3 +69,12 @@ ul.posts li {
     color: #101010;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+.post-content {
+    font-size: 0.5em;
+    line-height: 2em;
+    margin-top: 0.25em;
+    padding: 0 6px;
+    color: #101010;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}

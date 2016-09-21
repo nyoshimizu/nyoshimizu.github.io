@@ -53,7 +53,7 @@ ul.posts li {
 }
 
 .post-meta {
-    font-size: 1em;
+    font-size: 0.5em;
     line-height: 2em;
     margin-top: 0.25em;
     padding: 0 6px;
@@ -62,7 +62,7 @@ ul.posts li {
     background-color:#DCDCDC;
 }
 .post-title {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 2em;
     margin-top: 1em;
     padding: 0 6px;

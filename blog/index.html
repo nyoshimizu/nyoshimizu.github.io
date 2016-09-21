@@ -4,7 +4,7 @@ title: Blog
 ---
 
 {% for post in site.posts %}
-	<li>
+	<div>
 		<span>
 	 	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		</span>
@@ -17,5 +17,5 @@ title: Blog
 			</span>
 		</div>
 
-    	</li>
+    	</div>
 {% endfor %}

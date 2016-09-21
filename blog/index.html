@@ -3,8 +3,9 @@ layout: blog_index
 title: Blog
 ---
 
+<ul>
 {% for post in site.posts %}
-	<div>
+	<li>
 		<span>
 	 	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		</span>
@@ -17,5 +18,6 @@ title: Blog
 			</span>
 		</div>
 
-    	</div>
+    	</li>
 {% endfor %}
+</ul>

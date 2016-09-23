@@ -161,9 +161,9 @@ should be general enough otherwise (e.g. using Git).
 	
 </ol>
 
-{% highlight python %}
+```python
     from scipy import ndimage as nd
-{% endhighlight %}
+```
 
 
 

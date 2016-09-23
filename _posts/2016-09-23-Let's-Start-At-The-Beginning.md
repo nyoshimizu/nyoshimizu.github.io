@@ -171,9 +171,11 @@ should be general enough otherwise (e.g. using Git).
   </html>
 		
 {% endhighlight %}
+
 {% highlight python %}
     from scipy import ndimage as nd
 {% endhighlight %}
+
 	</li>
 	
 </ol>

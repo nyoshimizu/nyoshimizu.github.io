@@ -157,16 +157,13 @@ should be general enough otherwise (e.g. using Git).
 		{% raw %} <i> {{ page.title }} </i> {% endraw %}. Then you could make a
 		simple template like the following:
 		</p>
-		
-
-{% highlight python %}
-    from scipy import ndimage as nd
-{% endhighlight %}
-
 	</li>
 	
 </ol>
 
+{% highlight python %}
+    from scipy import ndimage as nd
+{% endhighlight %}
 
 
 

@@ -158,19 +158,6 @@ should be general enough otherwise (e.g. using Git).
 		simple template like the following:
 		</p>
 		
-{% highlight %}
-		
-<!DOCTYPE html>
-  <html>
-  
-    <head>
-	  <title>{{ page.title }}</title>
-	  <link rel="stylesheet" type="text/css" href="/css/main.css">
-    </head>
-  
-  </html>
-		
-{% endhighlight %}
 
 {% highlight python %}
     from scipy import ndimage as nd

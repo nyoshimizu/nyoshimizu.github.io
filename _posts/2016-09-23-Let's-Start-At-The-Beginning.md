@@ -161,8 +161,12 @@ should be general enough otherwise (e.g. using Git).
 	
 </ol>
 
-```python
-    from scipy import ndimage as nd
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
 
 

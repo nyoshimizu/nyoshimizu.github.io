@@ -158,7 +158,7 @@ should be general enough otherwise (e.g. using Git).
 		simple template like the following:
 		</p>
 		
-```html
+{% highlight %}
 		
 <!DOCTYPE html>
   <html>
@@ -170,7 +170,7 @@ should be general enough otherwise (e.g. using Git).
   
   </html>
 		
-```
+{% endhighlight %}
 
 	</li>
 	

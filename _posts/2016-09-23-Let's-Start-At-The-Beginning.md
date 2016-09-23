@@ -158,7 +158,7 @@ should be general enough otherwise (e.g. using Git).
 		simple template like the following:
 		</p>
 		
-{% highlight %}
+{% highlight html %}
 		
 <!DOCTYPE html>
   <html>

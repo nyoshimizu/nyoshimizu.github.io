@@ -1,5 +1,5 @@
 name: NY
-markdown: kramdown
+markdown: redcarpet
 kramdown:
   input: GFM
 highlighter: rouge

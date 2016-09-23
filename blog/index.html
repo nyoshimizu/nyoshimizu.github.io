@@ -1,6 +1,6 @@
 ---
 layout: blog_index
-title: Blog
+title: Blog posts (by date)
 ---
 
 {% for post in site.posts %}
@@ -19,7 +19,7 @@ title: Blog
 	</div>
 	
 	<div class="post-content">
-		{{ post.content }}
+		{{ post.excerpt }}
 	</div>
 	
 {% endfor %}

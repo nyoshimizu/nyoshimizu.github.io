@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: Blog posts (by tag)
 ---
 
 <!-- Get the tag name for every tag on the site and set them

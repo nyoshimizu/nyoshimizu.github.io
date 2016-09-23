@@ -1,5 +1,7 @@
 name: NY
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
 highlighter: rouge
 timezone: America/Los_Angeles
 permalink: /blog/:year/:month/:day/:title

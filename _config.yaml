@@ -2,7 +2,8 @@ name: NY
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge
+syntax-highlighting: true
 highlighter: rouge
 timezone: America/Los_Angeles
 permalink: /blog/:year/:month/:day/:title

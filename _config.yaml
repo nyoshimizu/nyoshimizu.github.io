@@ -1,10 +1,11 @@
 name: NY
-markdown: kramdown
-kramdown:
-  input: GFM
 timezone: America/Los_Angeles
 permalink: /blog/:year/:month/:day/:title
 excerpt_separator: <!--end excerpt-->
-syntax-highlighting:
-   enabled: true
-   css: syntax.css
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+

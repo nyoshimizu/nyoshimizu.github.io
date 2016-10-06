@@ -11,6 +11,8 @@ tags:
 this GitHub page and explains the basic features I'm using. I'll describe the
 features then give examples and links to how it's done on this GitHug page. This
 should serve as simple primer for setting up a GitHub page.
+<!--end excerpt-->
+
 
 <hr>
 
@@ -159,19 +161,46 @@ should be general enough otherwise (e.g. using Git).
 		</p>
 		
 {% highlight html %}
-		
 <!DOCTYPE html>
   <html>
-  
+	
     <head>
-	  <title>{{ page.title }}</title>
-	  <link rel="stylesheet" type="text/css" href="/css/main.css">
+      <title>{% raw %}{{ page.title }}{% endraw %}</title>
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
+	
+    <body>
+
+      <nav>
+        <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Blog (by date)</a></li>
+        <li><a href="/tags">Blog (by tag)</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        {% raw %}{{ content }}{% endraw %}
+      </div><!-- /.container -->
+
+    </body>
   
   </html>
-		
 {% endhighlight %}
 
+	    <p> 
+		Note that the {% raw %}<i>{{page.title}}</i> and <i>{{content}}</i>
+		{% endraw %} will pull that information from the page, such as
+		"Welcome" and "Hello World!"
+		</p>
+
+	</li>
+	
+	<li>
+		<p>
+		<b>Create pages using templates.</b>
+		</p>
 	</li>
 	
 </ol>

@@ -13,7 +13,6 @@ features then give examples and links to how it's done on this GitHug page. This
 should serve as simple primer for setting up a GitHub page.
 <!--end excerpt-->
 
-
 <hr>
 
 <div class="post-section-title">
@@ -160,7 +159,7 @@ should be general enough otherwise (e.g. using Git).
 		simple template like the following:
 		</p>
 		
-{% highlight html %}
+{% highlight text %}
 <!DOCTYPE html>
   <html>
 	
@@ -201,10 +200,18 @@ should be general enough otherwise (e.g. using Git).
 		<p>
 		<b>Create pages using templates.</b>
 		</p>
+
 	</li>
 	
 </ol>
 
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 
 

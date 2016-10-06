@@ -1,6 +1,9 @@
 name: NY
 markdown: kramdown
-highlighter: pygments.rb
+kramdown:
+  input: GFM
+syntax-highlighting: true
+highlighter: rouge
 timezone: America/Los_Angeles
 permalink: /blog/:year/:month/:day/:title
 excerpt_separator: <!--end excerpt-->

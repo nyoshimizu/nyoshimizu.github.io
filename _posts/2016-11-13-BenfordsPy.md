@@ -8,8 +8,8 @@ tags:
 - Statistics
 ---
 
-I published an early but otherwise working code I call BenfordsPy. It's a set
-of tols to analyze data using Benford's Law. More details within.
+I published an early but otherwise working code called BenfordsPy. It's a set
+of tools to analyze data using Benford's Law. More details within.
 <!--end excerpt-->
 
 The github page is located <a href="https://github.com/nyoshimizu/BenfordsPy">

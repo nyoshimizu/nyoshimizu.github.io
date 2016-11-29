@@ -7,7 +7,7 @@ tags:
 - Wargame
 ---
 
-I completed the <a href=http://overthewire.org/wargames/leviathan/>Leviathon</a>
+I completed the <a href="http://overthewire.org/wargames/leviathan/">Leviathon</a>
 challenges on Over The Wire. 
 <!--end excerpt-->
 

@@ -13,7 +13,7 @@ they have. I wrote a bit of code to scrape some options chains information and
 gained some experience using Beautiful Soup and Selenium.
 <!--end excerpt-->
 
-Using <a href="https://www.crummy.com/software/BeautifulSoup/>Beautiful Soup
+Using <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup
 </a> and <a href="http://www.seleniumhq.org/">Selenium</a> was interesting. 
 Beautiful Soup got me to look through and parse HTML code and Selenium was an 
 interesting addition to using 

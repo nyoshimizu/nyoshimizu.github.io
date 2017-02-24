@@ -3,7 +3,7 @@ layout: post
 title: "BenfordsPy"
 date: 2016-11-13
 tags:
-- Python
+- Python3
 - Benford's Law
 - Statistics
 ---

@@ -1,0 +1,18 @@
+name: NY
+<<<<<<< HEAD
+markdown: kramdown
+highlighter: pygments.rb
+=======
+markdown: redcarpet
+kramdown:
+  input: GFM
+highlighter: rouge
+syntax-highlighting: true
+highlighter: rouge
+>>>>>>> 02c48f62a477f9b4d6fb4db30c6629adb56c446b
+timezone: America/Los_Angeles
+permalink: /blog/:year/:month/:day/:title
+excerpt_separator: <!--end excerpt-->
+syntax-highlighting:
+   enabled: true
+   css: syntax.css

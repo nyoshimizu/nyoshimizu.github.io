@@ -1,0 +1,10 @@
+name: NY
+markdown: redcarpet
+kramdown:
+  input: GFM
+highlighter: rouge
+syntax-highlighting: true
+highlighter: rouge
+timezone: America/Los_Angeles
+permalink: /blog/:year/:month/:day/:title
+excerpt_separator: <!--end excerpt-->

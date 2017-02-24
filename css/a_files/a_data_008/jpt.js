@@ -1,0 +1,1 @@
+SKpbjs.handleCB({"result":{"cpm":0.0,"ad":""},"callback_uid":"681f5d7e08746f8"});

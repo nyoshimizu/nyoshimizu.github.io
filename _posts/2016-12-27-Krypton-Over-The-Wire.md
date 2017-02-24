@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bandit: Krypton"
+title: "Krypton: Over the Wire"
 date: 2016-12-27
 tags:
 - Computer Security

@@ -1,0 +1,182 @@
+/*
+	This CSS resource incorporates links to font software which is
+	the valuable copyrighted property of Monotype Imaging and/or
+	its suppliers. You may not attempt to copy, install, redistribute, convert,
+	modify or reverse engineer this font software. Please contact Monotype Imaging
+	with any questions regarding Web Fonts:  http://www.fontslive.com
+*/
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("45a13f65-5199-4a22-821e-9b7d7795518e-3.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+html,
+body {
+    margin: 0;
+	}
+body {
+    font-family: 'Segoe UI', serif;
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    color: #ffffff;
+    font-weight: 100;
+	}
+body, body * {
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+  	}
+img {
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+	}
+#shell{
+	position: relative;
+	}		
+#container {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden;
+    cursor: pointer;
+	}
+#overlay{
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 41px;
+	left: 0px;
+	background: #000000;
+	opacity: 0; 
+	}	
+#bkg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 41px;
+	left: 0px;
+	z-index: 1;
+	background: url(bkg.jpg) no-repeat;
+	opacity: 0;
+	}
+#clickthrough{
+	width: 100%;
+	height: 100%;
+	pointer-events: all;
+	cursor: pointer;
+	z-index: 99;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background: rgba(0,0,0,0);
+	}	
+
+#text1{
+	position: absolute;
+	width: 280px;
+	height: 70px;
+	top: 65px;
+	left: 14px;
+	z-index: 30;
+	}
+	
+#text2, #text3{
+	position: absolute;
+	width: 280px;
+	height: 50px;
+	top: 130px;
+	left: 14px;
+	z-index: 31;
+	}
+		
+#text4{
+	position: absolute;
+	top: 182px;
+	left: 21px;
+	font-size: 27px;
+	width: 140px;
+	height: 50px;
+	opacity: 0;
+	z-index: 32;
+	-webkit-font-smoothing: antialiased;
+	line-height: 22px;
+	}		
+	.month{
+		position: absolute;	
+		top: 34px;
+		left: 72px;
+		font-size: 14px;
+		-webkit-font-smoothing: antialiased;
+		-webkit-text-stroke: 0.3px;
+		}
+.sm-text{
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.3px;
+	}
+
+.md-text{
+	color: #fff;
+	font-size: 24px;
+	line-height: 28px;
+	-webkit-font-smoothing: antialiased;
+	}
+		
+#cta{
+	transform: translate(320px, 207px);
+	-webkit-transform: translate(320px, 207px);
+	-moz-transform: translate(320px, 207px);
+	-ms-transform: translate(320px, 207px);
+	display: block;
+	width: 114px;
+	height: 31px;
+	overflow: hidden;
+	background-image: url(cta.png);
+	background-position: 0px 0px;
+	position: absolute;
+	opacity: 1;
+	z-index: 100;
+	}
+	#cta:hover{
+		background-position: 0px -31px;
+		}
+		
+#header{
+	background: white;
+	height: 41px;
+	width: 300px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 90;
+	}
+	#logo{
+		width: 88px;
+		height: 17px;
+		position: absolute;
+		top: 12px;
+		right: 15px;
+		z-index: 5;
+		opacity: 0;
+		}
+	#exchange{
+		width: 93px;
+		height: 28px;
+		position: absolute;
+		top: 7px;
+		left: 15px;
+		z-index: 5;
+		opacity: 0;
+		}			
+	
+
+
+
+			

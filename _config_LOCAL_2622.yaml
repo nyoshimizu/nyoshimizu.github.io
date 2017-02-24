@@ -1,0 +1,9 @@
+name: NY
+markdown: kramdown
+highlighter: pygments.rb
+timezone: America/Los_Angeles
+permalink: /blog/:year/:month/:day/:title
+excerpt_separator: <!--end excerpt-->
+syntax-highlighting:
+   enabled: true
+   css: syntax.css

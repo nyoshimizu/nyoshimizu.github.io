@@ -1,3 +1,4 @@
 _site/
 runserver
 runserver~
+_posts/*.md~

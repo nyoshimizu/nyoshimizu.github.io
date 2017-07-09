@@ -7,7 +7,7 @@ tags:
 - Wargame
 ---
 
-I completed the <a href="http://overthewire.org/wargames/Narnia/">Narnia</a>
+I completed the [Narnia](http://overthewire.org/wargames/narnia)
 challenges on Over The Wire. 
 <!--end excerpt-->
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Narnia: Over the Wire"
-date: 2016-12-19
+date: 2017-01-24
 tags:
 - Computer Security
 - Wargame

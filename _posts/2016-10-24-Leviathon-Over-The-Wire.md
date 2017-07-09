@@ -13,3 +13,8 @@ challenges on Over The Wire.
 
 Fun, short set of challenges. New tools for me: ltrace (a library call tracer),
 ln (make links between files), and a little bit of BASH scripting. 
+
+Final message:
+
+Well Done, you seem to have used a *nix system before, now try something more serious.
+(Please don't post writeups, solutions or spoilers about the games on the web. Thank you!)

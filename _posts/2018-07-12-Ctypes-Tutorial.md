@@ -152,7 +152,7 @@ This is how it's done in my current code; however, it looks like while POINTER()
 myDLL.sum.argtypes = [c.byref(c.c_int)]
 ```
 
-Similarly, the function call must now pass a pointer to an integer. Suppose our asdfPython number we want to increment by three is pythonC. Then the function would be called by:
+Similarly, the function call must now pass a pointer to an integer. Suppose our Python number we want to increment by three is pythonC. Then the function would be called by:
 
 ```python
 myDLL.sum(c.byref(c.cint(pythonC)))

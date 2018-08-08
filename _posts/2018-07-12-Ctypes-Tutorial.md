@@ -119,7 +119,11 @@ myDLL.sum.restype = c.c_int
 pythonA = 3
 pythonB = 9
 return_int = myDLL.sum(c.c_int(pythonA), c.c_int(pythonB))
-print ("Sum of {} and {} is {}.".format(pythonA, pythonB, return_int))  // 12
+print ("Sum of {} and {} is {}.".format(pythonA,
+                                        pythonB,
+                                        return_int
+                                        )
+       )  // 12
 ```
 
 ### 3. Passing by reference.

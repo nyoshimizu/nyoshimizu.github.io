@@ -13,7 +13,7 @@ This is a brief tutorial for [ctypes](https://docs.python.org/3.7/library/ctypes
 
 ## Background
 
-For work I've been using a optics instrument which I control through my laptop. Because it's simpler and because I also control other instruments and do data processing with Python 3, I wanted to control this optical instrument through Python as well. I didn't want to use LabView, which was the other option.
+For work I've been using an optics instrument which I control through my laptop. Because it's simpler and because I also control other instruments and do data processing with Python 3, I wanted to control this optical instrument through Python as well. I didn't want to use LabView, which was the other option.
 
 The manufacturer supplies a DLL with which I can control and read data from the instrument. So this tutorial focuses on using calling functions in DLLs and accessing the results.
 

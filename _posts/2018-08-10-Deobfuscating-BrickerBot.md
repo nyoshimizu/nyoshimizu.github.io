@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deobfuscating Brickerbot"
+title: "Deobfuscating BrickerBot"
 date: 2018-08-10
 tags:
 - InfoSec

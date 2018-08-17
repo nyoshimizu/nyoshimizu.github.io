@@ -65,7 +65,7 @@ This code was deobfuscated directly from the code purportedly released by janit0
 
 Standard warning applies that this code is not meant to nor written up to be used as malware, but for analysis.
 
-The code is available [here](https://ghostbin.com/paste/06553).
+The code is available [here](https://ghostbin.com/paste/o6553).
 
 ## Deobfuscation
 

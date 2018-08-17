@@ -657,12 +657,19 @@ Is it possible to see this malware still active in the wild? Perhaps someone has
 
 The malware leaves externally visible messages, such as in the hostname, that a device is unsecure. Such messages include "SYSTEM HACKED PLEASE REINSTALL," "DEVICE HACKED - ACCOUNT *** HAD UNSAFE PASSWORD," etc. Shodan may give us a glimpse to see what is out there.
 
-A broad search for "HACKED" returned 25,508 results on 15 August 2018. The results I viewed showed the word "HACKED" in the hostname, such as:
+A broad search for "HACKED" returned 25,508 results on 15 August 2018. The results show the word "HACKED" in the hostname, such as:
 
 * HOST-ROUTER-HELP-SOS-HAD-DEFAULT-PASSWORD
 * HOST-ROUTER-HELP-SOS-HAD-DUPE-PASSWORD
 * HOST-ROUTER-HELP-SOS-VULN-EDB-39701
 
+!["HACKED"](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked.PNG) from 15 August 2018.
+
 A more narrow search for the phrase "HACKED-ROUTER-HELP" returned a similar 21,091 results. The same search only three weeks prior on 26 July 2018 had returned 43,680 results.
 
+!["HACKED-ROUTER-HELP"](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help-2.PNG) from 15 August 2018.
+
+!["HACKED-ROUTER-HELP", old](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help.PNG) from 26 July 2018.
+
 Based on the code available to us, the Shodan results we see certainly do not match. None of the exact messages in the code seem to match any results in Shodan. However, based on the message they do seem to have the same mission in mind. It may be a new, repurposed greyhat malware. Perhaps they are remnants of BrickerBot.4 or some other version, still active in the wild. In corroboration, Trustwave's Shodan searches in 2017 seem to suggest that they couldn't find exact matches to hostname messages in the released code either (possibly why they attributed ""hacker-router-help.." hostnames instead). So it's possible today's searches on Shodan measure the same thing Trustwave saw in 2017, which is some version of BrickerBot that does not exactly match the code that was released.
+

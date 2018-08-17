@@ -30,14 +30,14 @@ stocks) the contract requires pretty high confidence in order to be profitable.
 Below is the README markdown file for the code, which is
 <a href="https://github.com/nyoshimizu/YFoptions">here</a>.
 
-# Background
+## Background
 This package scrapes YF for options contract information using Selenium and Beautiful Soup.
 It will download a list of available expiration dates for a given equity, then download options information
 such as strike price, bids and asks, implied volatility, etc. that are available on the site. Note that the
 information sometimes seems to be outdated or incorrect in comparison to information from privately available
 data (e.g. from a brokerage).
 
-# Usage
+## Usage
 An object is created for each equity which stores the options contracts information:
 
 ```python
@@ -86,13 +86,13 @@ XYZoptions.getoptionschain()
 XYZoptions.writedata()
 ```
 
-# Requirements
+## Requirements
 This code requires Selenium and Beautiful Soup
 ChromeDriver is by Selenium, and should be downloaded. The code assumes it is located at
 "C:\Program Files (x86)\Google\Chrome\Application\\".
 
 
-# Todo:
+## Todo:
 * Full loading of the pages can be delayed by some very slow ads. In the short term, that can be mitigated
 by canceling the page load (e.g. by pressing 'escape') to allow the program to continue. An explicit condition
 (e.g. timer or existence of certain web elements) could be implemented to prevent excessive page load times.

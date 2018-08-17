@@ -671,16 +671,22 @@ A broad search for "HACKED" returned 25,508 results on 15 August 2018. The resul
 
 
 A search for "HACKED" from 15 August 2018:
+
 <img src="https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked.PNG" width="640px" />
+
 
 A more narrow search for the phrase "HACKED-ROUTER-HELP" returned a similar 21,091 results. The same search only three weeks prior on 26 July 2018 had returned 43,680 results.
 
 
-A search for "HACKED-ROUTER-HELP" from 15 August 2018.
+A search for "HACKED-ROUTER-HELP" from 15 August 2018:
+
 <image src="https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help-2.PNG" width="640px" />
 
-A search for "HACKED-ROUTER-HELP" from 26 July 2018.
+
+A search for "HACKED-ROUTER-HELP" from 26 July 2018:
+
 <img src="https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help.PNG" width="640px" />
+
 
 Based on the code available to us, the Shodan results we see certainly do not match. None of the exact messages in the code seem to match any results in Shodan. However, based on the message they do seem to have the same mission in mind. It may be a new, repurposed greyhat malware.
 

@@ -65,6 +65,8 @@ This code was deobfuscated directly from the code purportedly released by janit0
 
 Standard warning applies that this code is not meant to nor written up to be used as malware, but for analysis.
 
+The code is available [here](https://ghostbin.com/paste/06553).
+
 ## Deobfuscation
 
 The code was manually deobfuscated by static analysis. In addition to the notes here, the deobfuscated code contains comments for both functions and variables. Functions and variables were renamed to be descriptive, rather than their obfuscated, random names.

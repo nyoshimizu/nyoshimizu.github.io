@@ -664,15 +664,15 @@ A broad search for "HACKED" returned 25,508 results on 15 August 2018. The resul
 * HOST-ROUTER-HELP-SOS-VULN-EDB-39701
 
 A search for "HACKED" from 15 August 2018:
-![HACKED](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked.PNG)
+![HACKED](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked.PNG =640x)
 
 A more narrow search for the phrase "HACKED-ROUTER-HELP" returned a similar 21,091 results. The same search only three weeks prior on 26 July 2018 had returned 43,680 results.
 
 A search for "HACKED-ROUTER-HELP" from 15 August 2018.
-![HACKED-ROUTER-HELP](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help-2.PNG)
+![HACKED-ROUTER-HELP](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help-2.PNG =640x)
 
 A search for "HACKED-ROUTER-HELP" from 26 July 2018.
-![HACKED-ROUTER-HELP-old](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help.PNG)
+![HACKED-ROUTER-HELP-old](https://raw.githubusercontent.com/nyoshimizu/Deobfuscated-BrickerBot/master/Shodan%20screenshots/hacked-router-help.PNG =640x)
 
 Based on the code available to us, the Shodan results we see certainly do not match. None of the exact messages in the code seem to match any results in Shodan. However, based on the message they do seem to have the same mission in mind. It may be a new, repurposed greyhat malware. Perhaps they are remnants of BrickerBot.4 or some other version, still active in the wild. In corroboration, Trustwave's Shodan searches in 2017 seem to suggest that they couldn't find exact matches to hostname messages in the released code either (possibly why they attributed ""hacker-router-help.." hostnames instead). So it's possible today's searches on Shodan measure the same thing Trustwave saw in 2017, which is some version of BrickerBot that does not exactly match the code that was released.
 

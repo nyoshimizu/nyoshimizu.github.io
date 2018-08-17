@@ -277,7 +277,7 @@ The code suggests that functionality was added over time, resulting in five main
 
 The first block uses default credentials to gain access. It will also set hostnames, messages of the day, etc. to "HACKED," etc., to announce that the device was vulnerable and needed to be secured. This block comprises some 60-70% of the code by number of lines. 
 
-The second block, which is not offensive code, contains a Telnet hosting service on ports 23 and 2323. It will briefly accept connections and track information on those hosts.
+The second block, which is not offensive code, contains a Telnet hosting service on ports 23 and 2323. It will briefly accept connections and track information on those hosts. Note also that the code listens to all the ports listed in the list `ports_listen`, but does not respond or interact with the incoming connection.	
 
 The third block sends a `GET .//////////////////`, etc., request to target hosts, and nothing else (possibly to try to cause a buffer overflow / segmentation fault crash to brick the target host).
 

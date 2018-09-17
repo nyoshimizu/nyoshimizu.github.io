@@ -8,6 +8,10 @@ tags:
 
 This post discusses BrickerBot, a malware that operated from the end of 2016 to the end of 2017. The claimed author uploaded obfuscated code in December of 2017. There have been discussions about this project, but there does not appear to have been any work on deobfuscating and analyzing the code itself. 
 
+The obfuscated code is available [here](https://ghostbin.com/paste/o6553).
+
+The deofuscated code is available [here](https://github.com/nyoshimizu/Deobfuscated-BrickerBot/blob/master/deobfuscated_brickerbot.py).
+
 <!--end excerpt-->
 
 ## Background
